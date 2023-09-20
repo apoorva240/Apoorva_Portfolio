@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Life is a labyrinth of different streets, each street having same point of disembaraktion but different journey altogether.. "{" "}
+            "Life is a labyrinth of different streets, each street having same point of disembarktion but different journey altogether. "{" "}
           </p>
           <footer className="blockquote-footer">Apoorva</footer>
         </blockquote>
