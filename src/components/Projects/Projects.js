@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/osm.jpeg";
-import emotion from "../../Assets/Projects/emotion.png";
+import customer from "../../Assets/Projects/crsapbrs.jpg";
 import editor from "../../Assets/Projects/vp.jpg";
 import chatify from "../../Assets/Projects/PDP.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -65,7 +65,16 @@ function Projects() {
             />
           </Col>
 
-         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={customer}
+              isBlog={false}
+              title="Customer Review Sentiment Analysis Product based Recommendation System"
+              description="The Customer Review Sentiment Analysis and Product-Based Recommendation System is a Python-based project designed to help businesses gain valuable insights from customer reviews and enhance their product recommendation strategies. "
+              ghLink="https://github.com/apoorva240/Hackathon_project"
+              demoLink=""
+            />
+          </Col>
 
          
         </Row>
